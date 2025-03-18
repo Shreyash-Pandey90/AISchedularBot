@@ -1,0 +1,44 @@
+/* Container for the register page */
+.register-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Left side for the image */
+  .register-image {
+    flex: 1; /* Takes up half of the container */
+    background: url('https://media.istockphoto.com/id/1345115879/video/remote-video-interviews.jpg?s=640x640&k=20&c=JrikYYmT3wrWqNo6bI05sKNlLL8iz7GujpA-cvelVM4=') no-repeat center center;
+    background-size: cover; /* Ensures the image covers the entire area */
+  }
+  
+  /* Right side for the register card */
+  .register-card {
+    flex: 1; /* Takes up half of the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  /* Styling for the card */
+  .card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    width: 100%;
+    max-width: 400px; /* Limits the width of the card */
+    text-align: center;
+  }
+  
+  /* Styling for the register form */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between form elements */
+  }
+  
+  /* Styling for the register button */
+  .register-button {
+    margin-top: 20px; /* Adds space above the button */
+  }
